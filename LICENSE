@@ -1,21 +1,547 @@
-MIT License
+<!doctype html>
+<html class="no-js" lang="">
 
-Copyright (c) 2021 adam-IORI
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Metro | Minimal WooCommerce WordPress Theme</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font-awesome CSS-->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!-- Flaticon CSS-->
+    <link rel="stylesheet" href="fonts/flaticon.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&display=swap" rel="stylesheet">
+</head>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+<body class="sticky-header">
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Add your site or application content here -->
+    <!-- Preloader Start Here -->
+    <div id="preloader"></div>
+    <!-- Preloader End Here -->
+    <!-- scrollUp Start Here -->
+    <a href="#wrapper" data-type="section-switch" class="scrollUp">
+        <i class="fas fa-angle-double-up"></i>
+    </a>
+    <!-- scrollUp End Here -->
+    <div class="wrapper" id="wrapper">
+        <header id="header-menu">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 d-none d-md-block">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="nav-header-menu">
+                            <ul id="nav">
+                                <li class="current">
+                                    <a href="#home" class="nav-link">HOME</a>
+                                </li>
+                                <li>
+                                    <a href="#pages" class="nav-link">PAGES</a>
+                                </li>
+                                <li>
+                                    <a href="#product" class="nav-link">PRODUCTS</a>
+                                </li>
+                                <li>
+                                    <a href="#footer" class="nav-link">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-none d-md-block">
+                        <ul class="header-btn">
+                            <li>
+                                <a href="https://1.envato.market/bdkx9" class="buy-btn">Buy Now</a>
+                            </li>
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Inner Page Banner Area Start Here -->
+        <div class="preview-banner-area" data-bg-image="img/banner/banner1.jpg">
+            <div class="container">
+                <div class="preview-banner-content">
+                    <h1 class="item-title">Modern &amp; Minimal<span>WooCommerce Theme</span></h1>
+                    <div class="product-page">
+                        <ul>
+                            <li>
+                                <div class="item-page"><span>11</span>Home Pages</div>
+                            </li>
+                            <li>
+                                <div class="item-page"><span>06+</span>06+ Shop Pages</div>
+                            </li>
+                            <li>
+                                <div class="item-page"><span>07+</span>Product Pages </div>
+                            </li>
+                            <li>
+                                <div class="item-page"><span>06+</span>Header Style</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://1.envato.market/bdkx9" class="buy-btn">Buy Theme Now</a>
+                </div>
+            </div>
+        </div>
+        <!-- Inner Page Banner Area End Here -->
+        <!-- Main Body Area Start Here -->
+        <div id="main-body" class="main-body-area position-relative">
+            <div class="container" id="home">
+                <div class="section-heading">
+                    <h2 class="item-title">08+ Pre-Build Homepages</h2>
+                    <div class="item-subtitle">Awesome Minimal Home Demos</div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="product-box">
+                            <div class="product-box-img">
+                                <img src="img/product/home1.jpg" class="img-responsive" alt="theme">
+                                <a class="view-icon" href="https://www.radiustheme.com/demo/wordpress/themes/metro/">VIEW DEMO</a>
+                            </div>
+                            <div class="product-box-content">
+                                <div><a href="https://www.radiustheme.com/demo/wordpress/themes/metro/">Home_01</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="product-box">
+                            <div class="product-box-img">
+                                <img src="img/product/home2.jpg" class="img-responsive" alt="theme">
+                                <a class="view-icon" href="https://www.radiustheme.com/demo/wordpress/themes/metro/home-2/">VIEW DEMO</a>
+                            </div>
+                            <div class="product-box-content">
+                                <div><a href="https://www.radiustheme.com/demo/wordpress/themes/metro/home-2/">Home_02</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="product-box">
+                            <div class="product-box-img">
+                                <img src="img/product/home3.jpg" class="img-responsive" alt="theme">
+                                <a class="view-icon" href="https://www.radiustheme.com/demo/wordpress/themes/metro/home-3/">VIEW DEMO</a>
+                            </div>
+                            <div class="product-box-content">
+                                <div><a href="https://www.radiustheme.com/demo/wordpress/themes/metro/home-3/">Home_03</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="product-box">
+                            <div class="product-box-img">
+                                <img src="img/product/home4.jpg" class="img-responsive" alt="theme">
+                                <a class="view-icon" href="https://www.radiustheme.com/demo/wordpress/themes/metro/home-4/">VIEW DEMO</a>
+                            </div>
+                            <div class="product-box-content">
+                                <div><a href="https://www.radiustheme.com/demo/wordpress/themes/metro/home-4/">Home_04</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="product-box">
+                            <div class="product-box-img">
+                                <img src="img/product/home5.jpg" class="img-responsive" alt="theme">
+                                <a class="view-icon" href="https://www.radiustheme.com/demo/wordpress/themes/metro/home-5/">VIEW DEMO</a>
+                            </div>
+                            <div class="product-box-content">
+                                <div><a href="https://www.radiustheme.com/demo/wordpress/themes/metro/home-5/">Home_05</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="product-box">
+                            <div class="product-box-img">
+                                <img src="img/product/home6a.jpg" class="img-responsive" alt="theme">
+                                <a class="view-icon" href="https://www.radiustheme.com/demo/wordpress/themes/metro/home-6/">VIEW DEMO</a>
+                            </div>
+                            <div class="product-box-content">
+                                <div><a href="https://www.radiustheme.com/demo/wordpress/themes/metro/home-6/">Home_06</a></div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="product-box">
+                            <div class="product-box-img">
+                                <img src="img/product/home7.jpg" class="img-responsive" alt="theme">
+                                <a class="view-icon" href="https://www.radiustheme.com/demo/wordpress/themes/metro/home-7/">VIEW DEMO</a>
+                            </div>
+                            <div class="product-box-content">
+                                <div><a href="https://www.radiustheme.com/demo/wordpress/themes/metro/home-7/">Home_07</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="product-box">
+                            <div class="product-box-img">
+                                <img src="img/product/home8.jpg" class="img-responsive" alt="theme">
+                                <a class="view-icon" href="https://www.radiustheme.com/demo/wordpress/themes/metro/home8/">VIEW DEMO</a>
+                            </div>
+                            <div class="product-box-content">
+                                <div><a href="https://www.radiustheme.com/demo/wordpress/themes/metro/home8/">Home_08</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="product-box">
+                            <div class="product-box-img">
+                                <img src="img/product/home9.jpg" class="img-responsive" alt="theme">
+                                <a class="view-icon" href="https://www.radiustheme.com/demo/wordpress/themes/metro/home9/">VIEW DEMO</a>
+                            </div>
+                            <div class="product-box-content">
+                                <div><a href="https://www.radiustheme.com/demo/wordpress/themes/metro/home9/">Home_09</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="product-box">
+                            <div class="product-box-img">
+                                <img src="img/product/home10a.jpg" class="img-responsive" alt="theme">
+                                <a class="view-icon" href="https://www.radiustheme.com/demo/wordpress/themes/metro/home10-jewellery/">VIEW DEMO</a>
+                            </div>
+                            <div class="product-box-content">
+                                <div><a href="https://www.radiustheme.com/demo/wordpress/themes/metro/home10-jewellery/">Home_10 <span>(New Demo)</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="product-box">
+                            <div class="product-box-img">
+                                <img src="img/product/home11.jpg" class="img-responsive" alt="theme">
+                                <a class="view-icon" href="https://www.radiustheme.com/demo/wordpress/themes/metro/home11-winter/">VIEW DEMO</a>
+                            </div>
+                            <div class="product-box-content">
+                                <div><a href="https://www.radiustheme.com/demo/wordpress/themes/metro/home11-winter/">Home_11 <span>(New Demo)</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="product-box">
+                            <div class="coming-img">
+                                <img src="img/product/home12.jpg" class="img-responsive" alt="theme">
+                                <h3 class="coming-title">Coming Soon....</h3>
+                            </div>
+                            <div class="coming-content">
+                                <h3 class="item-title">Home_12</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Body Area End Here -->
+        <section class="speed-optimize">
+            <img src="img/features/optimize.jpg" alt="Optimize">
+        </section>
+        <!--Inner Page Area Start Here -->
+        <section id="pages" class="inner-page-wrap-layout1">
+            <div class="container-fluid">
+                <div class="section-heading">
+                    <h2 class="item-title text-white"><span>Different Shop</span>Page Style Layouts</h2>
+                </div>
+                <div class="isotope-wrap">
+                    <div class="text-center">
+                        <div class="isotope-classes-tab">
+                            <a class="nav-item current" data-filter="*">All Pages</a>
+                            <a class="nav-item" data-filter=".shop">Shop Pages</a>
+                            <a class="nav-item" data-filter=".product">Product Pages</a>
+                        </div>
+                    </div>
+                    <div class="row featuredContainer" id="no-equal-gallery">
+                        <div class="col-lg-4 shop no-equal-item">
+                            <div class="inner-page">
+                                <a href="https://www.radiustheme.com/demo/wordpress/themes/metro/shop/?sidebar=right">
+                                    <img src="img/product/inner1.png" alt="Inner Page">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 shop no-equal-item">
+                            <div class="inner-page">
+                                <a href="https://www.radiustheme.com/demo/wordpress/themes/metro/home-3/">
+                                    <img src="img/product/inner7.png" alt="Inner Page">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 shop no-equal-item">
+                            <div class="inner-page">
+                                <a href="https://www.radiustheme.com/demo/wordpress/themes/metro/shop/?sview=list">
+                                    <img src="img/product/inner3.png" alt="Inner Page">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 product no-equal-item">
+                            <div class="inner-page">
+                                <a href="https://www.radiustheme.com/demo/wordpress/themes/metro/product/winter-sweater/">
+                                    <img src="img/product/inner4.png" alt="Inner Page">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 product no-equal-item">
+                            <div class="inner-page">
+                                <a href="https://www.radiustheme.com/demo/wordpress/themes/metro/product/regular-jacket/?sp=3&pthumb=right">
+                                    <img src="img/product/inner5.png" alt="Inner Page">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 product no-equal-item">
+                            <div class="inner-page">
+                                <a href="https://www.radiustheme.com/demo/wordpress/themes/metro/product/wooden-chair/?sp=2">
+                                    <img src="img/product/inner6.png" alt="Inner Page">
+                                </a>
+                            </div>
+                        </div> 
+                        <div class="col-lg-4 shop no-equal-item">
+                            <div class="inner-page">
+                                <a href="https://www.radiustheme.com/demo/wordpress/themes/metro/shop/?sidebar=left">
+                                    <img src="img/product/inner2.png" alt="Inner Page">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 product no-equal-item">
+                            <div class="inner-page">
+                                <a href="https://www.radiustheme.com/demo/wordpress/themes/metro/product/gadgets-collection/">
+                                    <img src="img/product/inner9.png" alt="Inner Page">
+                                </a>
+                            </div>
+                        </div> 
+                        <div class="col-lg-4 product no-equal-item">
+                            <div class="inner-page">
+                                <a href="https://www.radiustheme.com/demo/wordpress/themes/metro/product/bagpack/">
+                                    <img src="img/product/inner10.png" alt="Inner Page">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 shop no-equal-item">
+                            <div class="inner-page">
+                                <a href="https://www.radiustheme.com/demo/wordpress/themes/metro/home-2/">
+                                    <img src="img/product/inner8.png" alt="Inner Page">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Inner Page Area End Here -->
+        <!--Responsive Area Start Here -->
+        <section class="inner-page-wrap-layout2">
+            <div class="container-fluid">
+                <div class="section-heading">
+                    <h2 class="item-title">Fully Responsive <span>&amp; Mobile friendly</span></h2>
+                    <div class="item-subtitle">Metro is awesome mobile friendly &amp; responsive Theme</div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <div class="inner-box">
+                            <div class="item-img">
+                                <img src="img/product/responsive.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Responsive Area End Here -->
+        <!--Plugin Offer Area Start Here -->
+        <section id="product" class="inner-page-wrap-layout3">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 class="item-title">WooCommerce Premium Plugins</h2>
+                    <div class="item-subtitle">Metro Build With Pro Plugins &amp; You Can Save More</div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="inner-box">
+                            <div class="item-img">
+                                <img src="img/product/woocommerce.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Plugin Offer Area End Here -->
+        <!--Style Area Start Here -->
+        <section class="inner-page-wrap-layout4">
+            <div class="container-fluid full-width">
+                <div class="row no-gutters">
+                    <div class="col-12">
+                        <div class="inner-box">
+                            <img src="img/features/elementor-full.jpg" alt="Elementor">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="inner-box">
+                            <img src="img/features/rtl.jpg" alt="Elementor">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="inner-box">
+                            <img src="img/features/header.jpg" alt="Header">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="inner-box">
+                            <img src="img/features/data-schema.jpg" alt="Elementor">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="inner-box">
+                            <img src="img/features/dokan.jpg" alt="Header">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="inner-box">
+                            <img src="img/features/blog.jpg" alt="Blog">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="inner-box">
+                            <img src="img/features/inner.jpg" alt="Inner Page">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Style Area End Here -->
+        <!--Features Area Start Here -->
+        <section class="inner-page-wrap-layout5" id="feature">
+            <div class="container">
+                <div class="section-heading-4">
+                    <h2>Our Core Feature</h2>
+                    <div class="item-subtitle">Let’s Introduce</div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="inner-box bg-light-pink">
+                            <div class="item-img">
+                                <img src="img/features/element1.png" alt="element">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title">Oneclick Demo Importer</h3>
+                                <p>Just Click On Install &amp; Import Demo Data</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="inner-box right-img bg-light-yellow">
+                            <div class="item-img">
+                                <img src="img/features/element2.png" alt="element">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title">Live Customizer</h3>
+                                <p>Support Live Customiser &amp; Theme Option</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="inner-box bg-light-pink">
+                            <div class="item-img">
+                                <img src="img/features/element3.png" alt="element">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title">Yoast SEO </h3>
+                                <p>yoast seo Compatible</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="inner-box right-img bg-light-blue">
+                            <div class="item-img">
+                                <img src="img/features/element4.png" alt="element">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title">WPML Integration</h3>
+                                <p>Easily Translate Site To Multilingual</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="inner-box bg-light-blueviolet">
+                            <div class="item-img">
+                                <img src="img/features/element5.png" alt="element">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title">Unlimited Color</h3>
+                                <p>Choose Your Favourite Color</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="inner-box right-img bg-light-pink">
+                            <div class="item-img">
+                                <img src="img/features/element6.png" alt="element">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title">Retina Image</h3>
+                                <p>Retina Image Supported</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="inner-box bg-light-red">
+                            <div class="item-img">
+                                <img src="img/features/element7.png" alt="element">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title">Google Font</h3>
+                                <p>Using Google Font Used</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="inner-box right-img bg-light-green">
+                            <div class="item-img">
+                                <img src="img/features/element8.png" alt="element">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title">Fast Support Team</h3>
+                                <p>15 Hours Real Time Support Team</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Features Area End Here -->
+        <!-- Footer Area Start Here -->
+        <footer id="footer">
+            <div class="footer-area">
+                <div class="container">
+                    <div class="footer-logo">
+                        <a href="#"><img src="img/footer-logo.png" class="img-responsive" alt="logo"></a>
+                    </div>
+                    <div class="footer-copyright">© Copyright Metro 2021. Designed and Developed by <a rel="nofollow" href="https://www.radiustheme.com/">RadiusTheme</a></div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Area End Here -->
+    </div>
+    <!-- jquery-->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Smoothscroll Js -->
+    <script src="js/smoothscroll.min.js"></script>
+    <!-- One Page Nav Js -->
+    <script src="js/jquery.nav.js"></script>
+    <!-- Isotope Js -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- ImagesLoaded Js -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <!-- Custom Js -->
+    <script src="js/main.js"></script>
+</body>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+</html>
